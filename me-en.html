@@ -1,0 +1,981 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0" dir="ltr">
+<title>R3 Welcome</title>
+<link rel="preconnect" href="https://rsms.me/">
+<link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+</head>
+<body>
+<div class="father">
+  <!-- DONE -->
+    <div class="header">
+        <h1>Rayyan Sanjalawi</h1>
+        <div class="bott">
+            <button onclick="smoothScroll('who')">Who am i</button>
+<button onclick="smoothScroll('projects')">Projects</button>
+<button onclick="smoothScroll('contact')">Contact</button>
+            
+            <div class="lang-wrapper">
+                <button class="lang" id="langBtn">
+                    <img class="tryangel" src="tryangel.svg">
+                    English
+                    <img class="lang-svg" src="language.svg">
+                </button>
+                <div class="dropdown" id="dropdown">
+                    <a href="me-ar.html" style="text-decoration: none;"><button class="lang lang-option">Arabic</button></a>
+                </div>
+            </div>
+        </div>
+
+        <img src="list.svg" class="menu-icon" id="menuIcon">
+    </div>
+  <!-- DONE <3 -->
+
+     <div class="mobile-menu" id="mobileMenu">
+        <button onclick="smoothScroll('who')">Who am i</button>
+<button onclick="smoothScroll('projects')">Projects</button>
+<button onclick="smoothScroll('contact')">Contact</button>
+
+        <div class="mobile-lang-wrapper">
+            <button class="mobile-lang" id="mobileLangBtn">Language</button>
+            <div class="mobile-dropdown" id="mobileDropdown">
+                <a href="me-en.html"><button class="mobile-lang-option">English</button></a>
+                <a href="me-ar.html"><button class="mobile-lang-option">Arabic</button></a>
+            </div>
+        </div>
+    </div>
+    <div class="who-am-i" id="who">
+        <div class="who-father">
+            <div class="who-text">
+                <h1>Who am i ?</h1>
+                <p>
+                    A 17-years-old male also known as R3 , Self-taught
+                    full stack developer (Web programing), Likes to
+                    tinker with cybersecurity.
+                </p>
+            </div>
+                <div class="jordan">
+                    <video autoplay loop muted>
+                        <source src="ksa-flag.mp4" type="video/mp4" />
+                         Your browser does not support the video tag.
+                    </video>
+                </div>
+        </div>
+    </div>
+    <div class="what-do-i-like">
+        <div class="what-father">
+                <div class="arch">
+                    <img src="arch.svg">
+                </div>
+            <div class="rice">
+                <h1>What do i like ?</h1>
+                    <p>
+                        I like to use Arch-linux becouse i love to RICING
+                        (costomize) my own user interface, I love to spend
+                        my time on coding and solving problems especially
+                        in BACK-END ಥ_ಥ.
+                    </p>
+                  
+            </div>
+        </div>
+    </div>
+    <div class="project" id="projects">
+        <div class="pro-father">
+            <div>
+                <h1>Projects</h1>
+            </div>
+            <div class="pros">
+                <div>
+                    <p>
+                        The biggest project I've worked on <a href="https://abn7zm.github.io/school/index.html" target="_blank"><span>Ibn Hazm Secondary School website</span></a> (witch you
+                        can't access because it's private log-in but you can take a look on the user interface) it took almost
+                        2 years since 2023 to 2025 , “I had to code the full site while kml180 got to design every page <3“. 
+                    </p>
+                    
+                </div>
+                <div>
+                    <h2>Coming soon</h2>
+                    <h6>(maybe winter of 2026)</h6>
+                    <p>
+                        Open-source softwear thats gives you access to make
+                        your own apps without need to know how to coding .
+                    </p>
+                </div>
+            </div>
+            <div class="code">
+                <h2>Programing language that's i know</h2>
+                <div class="code-lang">
+                    <img src="py.svg">
+                    <img class="js" src="js.svg">
+                    <img src="html.svg">
+                    <img src="css.svg">
+                    <img src="sql.svg">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="contact" id="contact">
+        <div class="contact-father">
+            <h1>Get in Touch with Me</h1>
+            <div class="form">
+                <form>
+                    <label for="fname">Name :</label><br>
+                    <input type="text" placeholder="Your name"><br><br>
+                    <label for="Email" >Email :</label><br>
+                    <input type="email" placeholder="Your email"><br><br>
+                    <label for="ms">Your Message :</label><br><br>
+                    <textarea class="mss" placeholder="Why do you want to contact me?"></textarea><br><br>
+                    <br><br>
+                    <button>Send</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <div>
+        <h4>Social media (NOT for bussines)</h4>
+        <div class="mine">
+           <a href="https://www.instagram.com/rayya302n/"  target="_blank"><p><img src="ig.svg">rayya302n</p></a>
+           <a href="https://x.com/rayya302n"  target="_blank"><p><img src="x.svg">rayya302n</p></a>
+           <a href="https://www.youtube.com/@rayya302n"  target="_blank"><p><img src="yt.svg">rayya302n</p></a>
+        </div>
+        <h5><a class="link" href="123--6.html">© 2025</a> All right saved for R3</h5>
+    </div>
+</footer>
+
+<style>
+html {
+    scroll-behavior: smooth;
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+.link {
+    color: #725c4cc8;
+}
+.header {
+    height: 50pt;
+    width: 100%;
+    background-color: #AD8B73;
+    position: relative;
+}
+
+.header h1 {
+    padding-top: 8pt;
+    padding-left: 20pt;
+}
+
+
+/*the divs inside father*/
+/*DONE*/
+    .who-am-i {
+    height: auto;
+    width: 100%;
+    background-color: #FFFBE9;
+    }
+    .who-text {
+        width: 50%;
+        left: 0;
+        padding-top: 5%;
+    }
+    .who-text h1 {
+        font-size: 42px;
+        padding: 20pt;
+    }
+    .who-text p {
+        padding: 20pt;
+        font-size: 36px;
+    }
+    .who-father {
+    display: flex;
+    }
+    .jordan {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        padding: 100px;
+    }
+    .jordan video {
+        width: 100%;
+        border: none;
+        display: block;
+        box-shadow: 0 0 80px 20px #FFFBE9 inset; 
+        -webkit-mask-image:
+            linear-gradient(to top,    transparent 0%, black 10%, black 70%, transparent 100%),
+            linear-gradient(to right,  transparent 0%, black 30%, black 70%, transparent 100%);
+        -webkit-mask-composite: intersect;
+        mask-composite: intersect;
+        mask-image: 
+            linear-gradient(to top,    transparent 0%, black 10%, black 70%, transparent 100%),
+            linear-gradient(to right,  transparent 0%, black 30%, black 70%, transparent 100%);
+
+    }
+/*DONE*/
+    .what-do-i-like {
+        height: auto;
+        width: 100%;
+        background-color: #E3CAA5;
+    }
+    .what-father {
+        display: flex;
+    }
+    .arch {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+    .arch img {
+        width: 60%;
+        padding: 50px;
+        margin: 50px;
+        border: 1px solid black;
+        border-radius: 10px;
+    }
+    .rice {
+        width: 50%;
+    }
+    .rice h1 {
+        font-size: 42px;
+        padding: 20pt;
+    }
+    .rice p {
+        padding: 20pt;
+        font-size: 36px;
+    }
+    .food {
+        padding-top: 10% !important;
+    }
+/*DONE*/
+.project {
+    height: auto;
+    width: 100%;
+    background-color: #FFFBE9;
+}
+.pro-father h1 {
+    font-size: 42px;
+    padding: 20pt;
+    text-align: center;
+}
+.pros {
+    display: flex;
+}
+.pros div {
+    width: 50%;
+    padding: 30px;
+    margin: 50px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #e3caa580;
+}
+.pros span {
+    color: #AE7157;
+    text-decoration:underline;
+}
+.pros p {
+    font-weight: 900;
+}
+.pros h2 {
+    padding-bottom: 10px;
+    font-weight: 900;
+}
+.pros h6 {
+    padding-bottom: 30px;
+    font-weight: 900;
+}
+.code h2 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 32px;
+    padding: 20px;
+}
+.code-lang {
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    column-gap: 10%;
+    padding: 50px;
+}
+.code-lang img {
+    width: 100px;
+    height: 100px;
+}
+
+.contact {
+    height: auto;
+    width: 100%;
+    background-color: #E3CAA5;
+}
+.contact-father {
+    align-content: center;
+    justify-content: center;
+}
+.form {
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    padding: 50px;
+}
+.form form {
+    border: #FFFBE9 solid 1px;
+    border-radius: 20px;
+    background-color: #FFFBE9;
+    padding: 40px;
+    width: 60%;
+    height: auto;
+}
+.form input {
+    background-color: #EAD6B6;
+    border: black solid 1px;
+    border-radius: 20px;
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+    padding-left: 10px;
+}
+.form label {
+    font-size: 20px;
+    font-weight: 600;
+    left: 0;
+}
+.form input::placeholder {
+    opacity: 0.5;
+    font-size: 20px ;
+    color: rgb(106, 106, 106);
+}
+.mss {
+    background-color: #EAD6B6;
+    border: black solid 1px;
+    border-radius: 20px;
+    width: 100%;
+    height: 150px;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+    font-family: sans-serif;
+    resize: none;
+}
+.form textarea::placeholder {
+    font-size: 20px ;
+    opacity: 0.5;
+    color: rgb(106, 106, 106);
+    font-family: sans-serif;
+}
+.form button {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border: black solid 1px;
+    background-color: #EAD6B6;
+    border-radius: 20px;
+    font-size: 20px ;
+    font-weight: 600;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    transition: 0.2s;
+    cursor: pointer;
+}
+.form button:hover {
+    transition: 0.2s;
+    background-color: #d0b994;
+}
+.contact-father h1 {
+    text-align: center;
+    padding: 20px;
+}
+
+/*buttons*/
+.bott {
+    position: absolute;
+    top: 7.5pt;
+    right: 20pt;
+    gap: 25pt;
+    display: flex;
+}  
+
+.bott button {
+    font-size: 15pt;
+    border: 0;
+    background: none;
+    background-image: linear-gradient(black, black);
+    background-position: 0 100%; 
+    background-repeat: no-repeat;
+    background-size: 0% 2px; 
+    transition: background-size 0.3s ease;
+    cursor: pointer;
+}
+
+.bott button:hover {
+    background-size: 100% 2px;
+}
+
+
+.lang-wrapper {
+    position: relative;
+    display: inline-block;
+}
+
+.lang {
+    border: 2px solid black !important;
+    padding: 10px 30px;
+    border-radius: 50px;
+    background: none !important;
+    font-size:12pt !important;
+    font-weight: 600 !important;
+    position: relative;
+    cursor: pointer;
+    transition: background 0.2s ease;
+}
+
+.lang:hover {
+    background-color: #E3CAA5;
+}
+
+.lang-svg {
+    width: 23px;
+    height: 23px;
+    left: 3%;
+    top: 20%;
+    position:absolute;
+}
+
+.tryangel {
+    width: 8%;
+    height: 8%x;
+    right: 12%;
+    top: 40%;
+    position:absolute;
+    transition: transform 0.3s ease;
+}
+
+.rotate {
+    transform: rotate(180deg);
+}
+
+/* Dropdown menu (I DID A GOOOOOD JOB)*/
+.dropdown {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    text-align: center;
+    padding: 0;
+    animation: fadeIn 0.2s ease;
+}
+
+.dropdown.show {
+    display: block;
+}
+
+.dropdown .lang-option {
+    width: 100%;
+    font-size: 12pt !important;
+    padding: 10px 30px !important;
+    border: 2px solid black !important;
+    border-radius: 50px !important;
+    background: none !important;
+    display: block;
+    text-align: center;
+    margin-top: 5px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.dropdown .lang-option:hover {
+    background: #E3CAA5 !important;
+}
+
+
+footer {
+    height: 100%;
+    width: 100%;
+    background-color: #AD8B73;
+    position: relative;
+}
+footer img {
+    width:25px;
+    height: 25px;
+    padding: 10px;
+    vertical-align: middle;
+}
+footer p {
+    font-size: 18px;
+    font-weight: bolder;
+    color: black;
+    text-decoration: none;
+}
+footer a {
+    text-decoration: none ;
+}
+footer h4 {
+    padding-bottom: 25px;
+    padding-top: 25px ;
+    padding-left: 10px;
+    font-weight: bolder;
+    font-size: 24px;
+}
+footer h5 {
+    text-align: center;
+    padding: 30px;
+}
+
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-5px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/*DONT TOUCH. THE FRONT OF THE WEB YA BITCH*/
+:root {
+    font-family: Inter, sans-serif;
+    font-feature-settings: 'liga' 1, 'calt' 1;
+}
+
+@supports (font-variation-settings: normal) {
+    :root { font-family: InterVariable, sans-serif; }
+}
+
+button {
+    :root {
+        font-family: Inter, sans-serif;
+        font-feature-settings: 'liga' 1, 'calt' 1;
+    }
+    @supports (font-variation-settings: normal) {
+        :root { font-family: InterVariable, sans-serif; }
+    }
+}
+
+
+.menu-icon {
+    display: none;
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    right: 20pt;
+    top: 10pt;
+    cursor: pointer;
+    transition: transform 0.3s ease, scale 0.3s ease;
+}
+.menu-icon.open {
+    transform: rotate(180deg) scale(1.1);
+}
+.mobile-menu {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+    position: absolute;
+    top: 50pt;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+.mobile-menu.show {
+    display: flex;
+}
+.mobile-menu button {
+    background: none;
+    border: black solid 0.1px;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 15px 0;
+    width: 100%;
+    text-align: center;
+    transition: background 0.2s ease;
+    cursor: pointer;
+}
+.mobile-menu button:hover {
+    background-color: rgba(255,255,255,0.2);
+}
+
+.mobile-lang-wrapper {
+    position: relative;
+    width: 100%;
+}
+.mobile-lang {
+    background: none;
+    border: 2px solid black;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    width: 90%;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+}
+.mobile-dropdown {
+    display: none;
+    flex-direction: column;
+    width: 90%;
+    margin: 5px auto 0;
+    text-align: center;
+}
+.mobile-dropdown.show {
+    display: flex;
+}
+.mobile-lang-option {
+    background: none;
+    border: 2px solid black;
+    border-radius: 50px;
+    padding: 10px;
+    margin-top: 5px;
+    cursor: pointer;
+    font-size: 14pt;
+}
+.mobile-lang-option:hover {
+    background-color: #E3CAA5;
+}
+
+@media (max-width: 900px) {
+    .bott {
+        display: none;
+    }
+    .menu-icon {
+        display: block;
+    }
+}
+@media (max-width: 900px) {
+    .who-father {
+        position: relative;
+        display: block;
+    }
+    .who-text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        width: 90%;
+        text-align: center;
+        z-index: 2;
+    }
+    .who-text h1, .who-text p {
+        color: white;
+        text-shadow: 0 0 10px rgba(0,0,0,0.6);
+    }
+    .jordan {
+        width: 100%;
+        padding: 0;
+        position: relative;
+        z-index: 1;
+    }
+    .jordan video {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+
+@media (max-width: 600px) {
+    .bott {
+        display: none;
+    }
+    .header h1 {
+        font-size: 24px;
+    }
+    .menu-icon {
+        display: block;
+        width: 35px;
+        height: 35px;
+        position: absolute;
+        right: 20pt;
+        top: 10pt;
+        cursor: pointer;
+    }
+
+    .who-father {
+        position: relative;
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    .jordan {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .jordan video {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .who-text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 90%;
+        text-align: center;
+        color: white;
+        z-index: 2;
+        padding: 0;
+        margin: 0;
+    }
+
+    .who-text h1 {
+        font-size: 28px;
+        margin: 0 0 5px 0;
+    }
+
+    .who-text p {
+        font-size: 16px;
+        margin: 0;
+    }
+
+    .jordan {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .jordan video {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .what-father {
+        display: block;
+    }
+    .arch, .rice {
+        width: 100%;
+        text-align: center;
+    }
+    .arch img {
+        width: 60%;
+        margin: 20px auto;
+    }
+    .rice h1 {
+        font-size: 28px;
+    }
+    .rice p {
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    .pros {
+        display: block;
+    }
+    .pros div {
+        width: 90%;
+        margin: 10px auto;
+        padding: 10px;
+    }
+
+    .code-lang {
+        flex-wrap: wrap;
+        gap: 20px;
+        padding: 20px;
+    }
+    .code-lang img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .form form {
+        width: 95%;
+        padding: 20px;
+    }
+    .form input, .mss {
+        font-size: 16px;
+        height: 40px;
+    }
+    .mss {
+        height: 100px;
+    }
+    .form button {
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+    h1 {
+        font-size: 28px !important;
+    }
+    h2 {
+        font-size: 22px !important;
+    }
+}
+
+
+@media (max-width: 600px) {
+    .what-do-i-like {
+        position: relative;
+        overflow: hidden;
+    }
+
+    .what-do-i-like::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url("arch.svg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        opacity: 0.3;
+        z-index: 0;
+    }
+
+ 
+    .what-do-i-like .rice,
+    .what-do-i-like .rice h1,
+    .what-do-i-like .rice p {
+        position: relative;
+        z-index: 1;
+        color: white;
+        text-shadow: 0 0 8px rgba(0,0,0,0.8);
+    }
+
+    .what-do-i-like .arch img {
+        display: none;
+    }
+}
+
+
+
+
+</style>
+
+<script>
+document.getElementById("langBtn").addEventListener("click", function() {
+    document.querySelector(".tryangel").classList.toggle("rotate");
+    document.getElementById("dropdown").classList.toggle("show");
+});
+
+
+const menuIcon = document.getElementById("menuIcon");
+const mobileMenu = document.getElementById("mobileMenu");
+
+menuIcon.addEventListener("click", () => {
+  const isOpen = mobileMenu.classList.toggle("show");
+  
+  menuIcon.classList.add("open");
+  menuIcon.style.transform = "scale(0.8)";
+  setTimeout(() => {
+    menuIcon.src = isOpen ? "close.svg" : "list.svg";
+    menuIcon.style.transform = "scale(1)";
+    menuIcon.classList.remove("open");
+  }, 200);
+});
+
+
+document.getElementById("mobileLangBtn").addEventListener("click", function() {
+    document.getElementById("mobileDropdown").classList.toggle("show");
+});
+
+function smoothScroll(target, duration = 800) {
+    const element = document.getElementById(target);
+    const start = window.pageYOffset;
+    const end = element.getBoundingClientRect().top + start;
+    const distance = end - start;
+    let startTime = null;
+
+    function animation(currentTime) {
+        if (startTime === null) startTime = currentTime;
+        const timeElapsed = currentTime - startTime;
+        const run = ease(timeElapsed, start, distance, duration);
+        window.scrollTo(0, run);
+        if (timeElapsed < duration) requestAnimationFrame(animation);
+    }
+
+    function ease(t, b, c, d) {
+        t /= d / 2;
+        if (t < 1) return c / 2 * t * t + b;
+        t--;
+        return -c/2 * (t*(t-2) - 1) + b;
+    }
+
+    requestAnimationFrame(animation);
+}
+
+
+
+
+
+
+
+
+
+const form = document.querySelector(".form form");
+const button = form.querySelector("button");
+const loader = document.createElement("div");
+loader.innerHTML = "⏳ Sending...";
+loader.style.textAlign = "center";
+loader.style.fontWeight = "bold";
+loader.style.display = "none";
+loader.style.padding = "10px";
+form.appendChild(loader);
+
+form.addEventListener("submit", async (e) => {
+  e.preventDefault();
+  
+  const name = form.querySelector('input[type="text"]').value.trim();
+  const email = form.querySelector('input[type="email"]').value.trim();
+  const message = form.querySelector('textarea').value.trim();
+
+  if (!name || !email || !message) {
+    alert("Please fill all fields");
+    return;
+  }
+
+  button.disabled = true;
+  loader.style.display = "block";
+  button.style.display = "none";
+
+  try {
+    const response = await fetch("https://script.google.com/macros/s/AKfycbyf6gW5bxkBmCmoj77QH-IicPfBFhGMXnzNRvdYpHeboXMhX0FQXK_LvpyUFmvHCN9O8Q/exec", {
+      method: "POST",
+      mode: "no-cors",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ name, email, message }),
+    });
+
+    setTimeout(() => {
+      loader.innerHTML = "✅ Sent successfully!";
+      loader.style.color = "green";
+    }, 1000);
+
+    setTimeout(() => {
+      form.reset();
+      button.disabled = false;
+      button.style.display = "block";
+      loader.style.display = "none";
+      loader.innerHTML = "⏳ Sending...";
+    }, 2500);
+
+  } catch (error) {
+    loader.innerHTML = "❌ Error sending message";
+    loader.style.color = "red";
+    console.error(error);
+    setTimeout(() => {
+      loader.style.display = "none";
+      button.disabled = false;
+      button.style.display = "block";
+      loader.innerHTML = "⏳ Sending...";
+    }, 2500);
+  }
+});
+</script>
+
+</body>
+</html>
